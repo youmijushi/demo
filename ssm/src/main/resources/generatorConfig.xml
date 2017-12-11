@@ -42,7 +42,7 @@
         </javaClientGenerator>
 
         <!-- 要生成哪些表 -->
-        <table tableName="user_t" domainObjectName="user"
+        <table tableName="t_user" domainObjectName="user"
             enableCountByExample="false" enableUpdateByExample="false"
             enableDeleteByExample="false" enableSelectByExample="false"
             selectByExampleQueryId="false" enableSelectByPrimaryKey="true"
