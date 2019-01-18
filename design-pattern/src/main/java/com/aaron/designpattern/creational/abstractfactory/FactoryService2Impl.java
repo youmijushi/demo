@@ -10,8 +10,8 @@ public class FactoryService2Impl implements FactoryService {
      * @return AbstractProductA
      */
     @Override
-    public ProductAService createProductA() {
-        return new ProductAService2Impl();
+    public ProductAaService createProductA() {
+        return new ProductAaService2Impl();
     }
 
     /**
@@ -20,7 +20,7 @@ public class FactoryService2Impl implements FactoryService {
      * @return AbstractProductB
      */
     @Override
-    public ProductBService createProductB() {
-        return new ProductBService2Impl();
+    public ProductBbService createProductB() {
+        return new ProductBbService2Impl();
     }
 }

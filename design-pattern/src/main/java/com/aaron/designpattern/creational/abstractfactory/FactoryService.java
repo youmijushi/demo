@@ -9,12 +9,12 @@ interface FactoryService {
      *
      * @return AbstractProductB
      */
-    ProductAService createProductA();
+    ProductAaService createProductA();
 
     /**
      * createProductB
      *
      * @return AbstractProductB
      */
-    ProductBService createProductB();
+    ProductBbService createProductB();
 }

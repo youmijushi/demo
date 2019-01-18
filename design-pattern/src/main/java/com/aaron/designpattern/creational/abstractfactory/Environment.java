@@ -8,12 +8,12 @@ public class Environment {
      * abstractProductA
      *
      */
-    private ProductAService abstractProductA;
+    private ProductAaService abstractProductA;
     /**
      * abstractProductB
      *
      */
-    private ProductBService abstractProductB;
+    private ProductBbService abstractProductB;
 
     /**
      * Environment

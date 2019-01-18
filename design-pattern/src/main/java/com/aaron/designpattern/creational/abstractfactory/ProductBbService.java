@@ -3,11 +3,11 @@ package com.aaron.designpattern.creational.abstractfactory;
 /**
  * @author Aaron
  */
-interface ProductBService {
+interface ProductBbService {
     /**
      * interact
      *
      * @param abstractProductA
      */
-    void interact(ProductAService abstractProductA);
+    void interact(ProductAaService abstractProductA);
 }

@@ -3,14 +3,14 @@ package com.aaron.designpattern.creational.abstractfactory;
 /**
  * @author Aaron
  */
-public class ProductBService1Impl implements ProductBService {
+public class ProductBbService2Impl implements ProductBbService {
     /**
      * interact
      *
      * @param abstractProductA
      */
     @Override
-    public void interact(ProductAService abstractProductA) {
+    public void interact(ProductAaService abstractProductA) {
         System.out.println(this + " interacts with " + abstractProductA);
     }
 }

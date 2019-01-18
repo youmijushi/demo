@@ -3,5 +3,5 @@ package com.aaron.designpattern.creational.abstractfactory;
 /**
  * @author Aaron
  */
-public class ProductAService2Impl implements ProductAService {
+public class ProductAaService2Impl implements ProductAaService {
 }
