@@ -3,7 +3,7 @@ package com.aaron.designpattern.creational.abstractfactory;
 /**
  * @author Aaron
  */
-public class FactoryServiceImpl2 implements FactoryService {
+public class FactoryService2Impl implements FactoryService {
     /**
      * createProductA
      *
@@ -11,7 +11,7 @@ public class FactoryServiceImpl2 implements FactoryService {
      */
     @Override
     public ProductAService createProductA() {
-        return new ProductAServiceImpl2();
+        return new ProductAService2Impl();
     }
 
     /**
@@ -21,6 +21,6 @@ public class FactoryServiceImpl2 implements FactoryService {
      */
     @Override
     public ProductBService createProductB() {
-        return new ProductBServiceImpl2();
+        return new ProductBService2Impl();
     }
 }
