@@ -3,7 +3,7 @@ package com.aaron.designpattern.creational.abstractfactory;
 /**
  * @author Aaron
  */
-public interface ProductBService {
+interface ProductBService {
     /**
      * interact
      *
